@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 16px;
+    background-color: #182c61;
+    color:#ecf0f1;
+    font-family: 'Bungee', sans-serif;
+}
+
+body, input, textarea {
+    font-family: 'Roboto', sans-serif;
+}
+
+header nav li {
+    display:inline;
+    margin-left: 16px 0;
+    margin-right: 25px;
+    font-size: 16px;
+}
+
+header nav li a {
+    color:#ecf0f1 ;
+    text-decoration: none;
+    }
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    }
+
+    #padd {
+        padding-bottom: 30px;
+    }
+
+header h1 {
+    font-size: 26px;
+    font-family: 'Bungee', sans-serif;
+    font-weight: normal;
+}
+
+.brands img {
+    height: 24px;
+}
+
+.brands li{
+    display: inline;
+    margin-right: 8px;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;    
+    color: #182c61;
+}
+
+section h2, 
+section h3 {
+    margin-bottom: 16px;
+    font-family: 'Bungee', sans-serif;
+    font-weight: normal;
+}
+
+section p {
+    margin-bottom: 8px;
+    font-size: 15px;
+}
+
+.store-font {
+    margin-right: 32px;
+}
+
+.social img {
+    height: 24px;
+}
+
+.social li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social a {
+    text-decoration: none;
+}
+
+
+.methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input, form textarea, form button {
+    display: block;
+    width:320px;
+    margin-bottom: 8px;
+    padding: 3px;
+}
+
+form textarea {
+    resize: none;
+    height: 80px;
+}
+
+.store-font {
+height: 350px;
+}
+
+form button {
+    background-color: #182c61;
+    color: #ecf0f1;
+    font-family: 'Bungee', sans-serif;
+    font-weight: normal;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #2a489b;
+}
+
+input:focus, textarea:focus {
+    outline-color: #182c61;
+}
+
+footer {
+    background-color: #182c61;
+    color: #ecf0f1;
+    padding: 16px 0;
+    margin-top: 30px;
+}
+
+.test {
+    padding-top: 75px;
+}
